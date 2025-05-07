@@ -1,0 +1,11 @@
+[package]
+name = "imessagedump"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.40"
+imessage-database = "2.6.1" # Reverted to latest, expecting new Cargo to handle it
+serde = "1.0.219"
+serde_json = "1.0.140"
+clap = { version = "4.5.1", features = ["derive"] }
